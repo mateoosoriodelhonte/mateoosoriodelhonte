@@ -10,6 +10,7 @@
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
 
 ## About
+From Lima,Peru / Working in Utah.
 
 I contribute to platform and client-facing product work at New Reward, with a focus on route quality, data coverage, documentation, QA validation, and product reliability.
 
