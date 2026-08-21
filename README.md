@@ -58,7 +58,7 @@ The goal is not to make AI sound certain. It is to give the system better contex
 
 ## Open source
 
-- **[sandplover PR #261](https://github.com/sandpiper-toolchain/sandplover/pull/261)** — open draft contribution with a regression-tested fix so compensation NaN validation follows the clipped working array. This is an open contribution, not a merged claim.
+- **[sandplover PR #261](https://github.com/sandpiper-toolchain/sandplover/pull/261)** — open PR awaiting maintainer review, with a regression-tested fix so compensation NaN validation follows the clipped working array. This is an open contribution, not a merged claim.
 
 ## GitHub activity
 
