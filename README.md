@@ -16,14 +16,15 @@
 
 I build and validate client-facing software across frontend, backend, APIs, data, QA, and release workflows. I care about systems that expose their evidence, handle unknown states honestly, and stay understandable under review.
 
-## What I do at work
+## Experience
 
-- Build and review frontend and backend features for client-facing platform surfaces.
-- Investigate route quality, API contracts, data coverage gaps, and unavailable-state behavior.
-- Use Playwright, automated QA, regression validation, and release-readiness checks to verify changes end to end.
-- Audit codebases and architecture, debug production behavior, drive scoped issue/PR workflows, and write technical documentation.
+### SolutionStream / New Reward
 
-AI supports this work as an engineering assistant for investigation, implementation, and review—but its output still has to clear the same evidence and verification bar as any other change.
+**Software Engineering · Platform Engineering**
+
+- Contribute to client-facing frontend and backend product work, including React and Next.js interfaces.
+- Investigate route and API behavior, data coverage and ingestion gaps, unavailable/error states, and production bugs using reproducible evidence.
+- Support release readiness through Playwright and regression validation, scoped issue and PR workflows, codebase and architecture audits, technical documentation, and AI-assisted implementation and code review.
 
 ## Featured projects
 
@@ -46,19 +47,22 @@ I’m interested in AI systems that retrieve trustworthy context before reasonin
 
 The goal is not to make AI sound certain. It is to give the system better context, explicit boundaries, and a verification path.
 
-## Engineering stack
+## Languages & technology
 
-| | Technologies and practices |
+This is a working toolkit, not a proficiency ranking; experience and depth vary by technology and context.
+
+| Area | Technologies and practices |
 | --- | --- |
-| **Languages** | TypeScript, JavaScript, Python, SQL, Go, Rust |
-| **Web & platform** | React, Next.js, Node.js, FastAPI, HTMX |
-| **Data** | PostgreSQL, SQLite, Prisma, SQLAlchemy |
-| **AI systems** | RAG, context engineering, agent workflows, Ollama |
-| **Quality & delivery** | Playwright, GitHub Actions, API validation, automated QA, regression verification |
+| **Languages** | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white) ![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=000000) ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white) |
+| **Frontend & application** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![HTMX](https://img.shields.io/badge/HTMX-3366CC?style=flat-square&logo=htmx&logoColor=white) ![Jinja2](https://img.shields.io/badge/Jinja2-B41717?style=flat-square&logo=jinja&logoColor=white) |
+| **Data & persistence** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white) ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=051B11) |
+| **Testing, quality & automation** | ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white) ![React Testing Library](https://img.shields.io/badge/React_Testing_Library-E33332?style=flat-square&logo=testinglibrary&logoColor=white) ![Linting](https://img.shields.io/badge/Linting-555555?style=flat-square) ![Formatting](https://img.shields.io/badge/Formatting-555555?style=flat-square) ![Type checking](https://img.shields.io/badge/Type_Checking-555555?style=flat-square) ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **AI & developer systems** | ![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white) ![RAG](https://img.shields.io/badge/RAG-0969DA?style=flat-square) ![Semantic retrieval](https://img.shields.io/badge/Semantic_Retrieval-1F6FEB?style=flat-square) ![Vector search](https://img.shields.io/badge/Vector_Search-8250DF?style=flat-square) ![Context engineering](https://img.shields.io/badge/Context_Engineering-6F42C1?style=flat-square) ![AI agents](https://img.shields.io/badge/AI_Agents-238636?style=flat-square) ![LLM evaluation](https://img.shields.io/badge/LLM_Evaluation-B35900?style=flat-square) |
+| **Delivery & tooling** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) |
 
 ## Open source
 
-- **[sandplover PR #261](https://github.com/sandpiper-toolchain/sandplover/pull/261)** — open PR awaiting maintainer review, with a regression-tested fix so compensation NaN validation follows the clipped working array. This is an open contribution, not a merged claim.
+- **[sandplover PR #261](https://github.com/sandpiper-toolchain/sandplover/pull/261)** — open and ready for review, with a regression-tested fix so compensation NaN validation follows the clipped working array. This is an open contribution, not a merged claim.
 
 ## GitHub activity
 
@@ -77,7 +81,14 @@ Public contribution data is kept here as supporting context; the projects above 
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github_dark">
       <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github">
-      <img alt="Mateo's public GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github" width="52%">
+      <img alt="Mateo's public GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github" width="340">
+    </picture>
+  </a>
+  <a href="https://github.com/mateoosoriodelhonte?tab=repositories">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mateoosoriodelhonte&amp;theme=github_dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mateoosoriodelhonte&amp;theme=github">
+      <img alt="Mateo's public repositories grouped by primary language" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mateoosoriodelhonte&amp;theme=github" width="340">
     </picture>
   </a>
 </p>
