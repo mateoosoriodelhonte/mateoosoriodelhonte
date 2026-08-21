@@ -1,80 +1,97 @@
-# Mateo Osorio Delhonte
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-banner-light.svg">
+  <img alt="Mateo Osorio Delhonte — Software Engineer, Platform Engineering, and AI Systems" src="./assets/profile-banner-light.svg" width="100%">
+</picture>
 
-**Platform Engineer | AI & Software Engineer**
+<div align="center">
+  <h1>Mateo Osorio Delhonte</h1>
+  <p><strong>Software Engineer · Platform Engineering · AI Systems</strong></p>
+  <p>
+    <a href="https://www.linkedin.com/in/mateo-osorio-5a93452ab"><img alt="Connect with Mateo on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&amp;logo=linkedin&amp;logoColor=white"></a>
+    <a href="https://github.com/mateoosoriodelhonte"><img alt="View Mateo's GitHub profile" src="https://img.shields.io/badge/GitHub-@mateoosoriodelhonte-181717?style=flat-square&amp;logo=github&amp;logoColor=white"></a>
+  </p>
+  <p><sub>From Lima, Peru 🇵🇪 · Working in Utah, USA 🇺🇸</sub></p>
+</div>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat&logo=playwright&logoColor=white)
+I build and validate client-facing software across frontend, backend, APIs, data, QA, and release workflows. I care about systems that expose their evidence, handle unknown states honestly, and stay understandable under review.
 
-## About
+## What I do at work
 
-From Lima, Peru 🇵🇪 / Working in Utah 🇺🇸
+- Build and review frontend and backend features for client-facing platform surfaces.
+- Investigate route quality, API contracts, data coverage gaps, and unavailable-state behavior.
+- Use Playwright, automated QA, regression validation, and release-readiness checks to verify changes end to end.
+- Audit codebases and architecture, debug production behavior, drive scoped issue/PR workflows, and write technical documentation.
 
-I contribute to platform and client-facing product work at New Reward, with a focus on route quality, data coverage, documentation, QA validation, AI-assisted workflows, and product reliability.
+AI supports this work as an engineering assistant for investigation, implementation, and review—but its output still has to clear the same evidence and verification bar as any other change.
 
-My work centers on making systems easier to understand, validate, and safely improve—from investigating product behavior and API/data issues to supporting implementation, testing, and release readiness.
+## Featured projects
 
-Public profile focused on verified platform contribution, product reliability, AI-assisted engineering, and client-safe development work.
+| Project | What it demonstrates |
+| --- | --- |
+| **[RepoSignal](https://github.com/mateoosoriodelhonte/reposignal)**<br><br>[![RepoSignal CI](https://github.com/mateoosoriodelhonte/reposignal/actions/workflows/ci.yml/badge.svg)](https://github.com/mateoosoriodelhonte/reposignal/actions/workflows/ci.yml)<br><br>[Live demo](https://reposignal-lovat.vercel.app) | An evidence-backed engineering health analyzer for GitHub repositories. It normalizes GitHub API data before applying deterministic, testable scoring; preserves missing evidence as unknown rather than zero; and supports selected private repositories through a read-only GitHub App path.<br><br>**TypeScript · Next.js · React · PostgreSQL · Prisma · Playwright · GitHub Actions** |
+| **[StudyForge](https://github.com/mateoosoriodelhonte/studyforge)**<br><br>[![StudyForge CI](https://github.com/mateoosoriodelhonte/studyforge/actions/workflows/ci.yml/badge.svg)](https://github.com/mateoosoriodelhonte/studyforge/actions/workflows/ci.yml) | A local-first study system that ingests pasted text, text files, and PDFs; builds traceable flashcards and quizzes; and schedules reviews with FSRS-6. It is fully useful in no-AI mode, with optional local Ollama support.<br><br>**Python · FastAPI · HTMX · SQLAlchemy · SQLite** |
+| **[ProcessPilot](https://github.com/mateoosoriodelhonte/processpilot)**<br><br>[![ProcessPilot CI](https://github.com/mateoosoriodelhonte/processpilot/actions/workflows/ci.yml/badge.svg)](https://github.com/mateoosoriodelhonte/processpilot/actions/workflows/ci.yml) | A privacy-first, read-only macOS process monitor built around normal unprivileged telemetry. Rust collects narrow process evidence; Go validates and groups it, records bounded SQLite resource history, detects documented anomalies, and can request optional loopback-only Ollama explanations. It does not inspect process contents or control processes.<br><br>**Rust · Go · SQLite · Ollama (optional)** |
 
-## Current Focus
+## AI, RAG & agentic engineering
 
-Supporting client-facing platform work through:
+I’m interested in AI systems that retrieve trustworthy context before reasoning—relevant code, documentation, requirements, and evidence rather than ungrounded confidence.
 
-* Route quality and API validation
-* Data coverage and unavailable-state handling
-* QA and regression validation
-* Backend and frontend testing
-* Technical documentation
-* Release-readiness verification
-* AI-assisted engineering workflows
-* System and architecture audits
+| Area | Current focus |
+| --- | --- |
+| **Retrieval** | Retrieval-Augmented Generation, hybrid retrieval, semantic search, and vector search |
+| **Context** | Context engineering, chunking, reranking, provenance, and source selection |
+| **Agents** | Tool-using agent workflows, multi-agent orchestration, and bounded execution |
+| **Evaluation** | Retrieval quality, grounded generation, traceable outputs, and evidence-backed review |
 
-## AI & RAG
+The goal is not to make AI sound certain. It is to give the system better context, explicit boundaries, and a verification path.
 
-I use AI-assisted development workflows to investigate codebases, validate implementations, review changes, and improve engineering throughput.
+## Engineering stack
 
-I’m also exploring Retrieval-Augmented Generation (RAG) for grounding AI systems in trusted project context—retrieving relevant code, documentation, product requirements, and evidence before generating answers or recommendations.
+| | Technologies and practices |
+| --- | --- |
+| **Languages** | TypeScript, JavaScript, Python, SQL, Go, Rust |
+| **Web & platform** | React, Next.js, Node.js, FastAPI, HTMX |
+| **Data** | PostgreSQL, SQLite, Prisma, SQLAlchemy |
+| **AI systems** | RAG, context engineering, agent workflows, Ollama |
+| **Quality & delivery** | Playwright, GitHub Actions, API validation, automated QA, regression verification |
 
-Areas of interest include:
+## Open source
 
-* Repository-aware retrieval
-* Documentation and knowledge retrieval
-* Context selection and grounding
-* Vector and semantic search
-* Agentic development workflows
-* Evidence-backed AI outputs
-* Multi-agent orchestration
-* RAG evaluation and retrieval quality
+- **[sandplover PR #261](https://github.com/sandpiper-toolchain/sandplover/pull/261)** — open PR awaiting maintainer review, with a regression-tested fix so compensation NaN validation follows the clipped working array. This is an open contribution, not a merged claim.
 
-## Tools & Workflows
+## GitHub activity
 
-### Development
+Public contribution data is kept here as supporting context; the projects above are the primary record of what I build.
 
-TypeScript · React · Next.js · Node.js · PostgreSQL · Prisma · Supabase · Playwright · GitHub Actions
+<a href="https://github.com/mateoosoriodelhonte">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=mateoosoriodelhonte&amp;theme=github-dark&amp;hide_border=true&amp;area=true&amp;custom_title=Public%20Contribution%20Activity">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=mateoosoriodelhonte&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;custom_title=Public%20Contribution%20Activity">
+    <img alt="Mateo's public GitHub contribution activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=mateoosoriodelhonte&amp;theme=github-light&amp;hide_border=true&amp;area=true&amp;custom_title=Public%20Contribution%20Activity" width="100%">
+  </picture>
+</a>
 
-### Quality & Platform
+<p align="center">
+  <a href="https://github.com/mateoosoriodelhonte">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github_dark">
+      <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github">
+      <img alt="Mateo's public GitHub statistics" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=mateoosoriodelhonte&amp;theme=github" width="52%">
+    </picture>
+  </a>
+</p>
 
-API validation · Backend testing · QA automation · Route quality · Regression testing · Technical documentation · Release validation
+## How I work
 
-### AI Engineering
+**evidence → root cause → bounded change → implementation → tests → review → verification**
 
-RAG · Semantic retrieval · Context engineering · AI-assisted code review · Agent workflows · LLM evaluation · Multi-agent orchestration
+I prefer reviewable changes with clear ownership and observable proof. I use AI to accelerate investigation and implementation, not to replace technical judgment, testing, or human review.
 
-## How I Work
+## Current learning
 
-I keep my work practical and reviewable: clear scope, documented behavior, validation evidence, and careful follow-through.
-
-I prefer evidence over assumptions. When working with AI systems, I focus on giving models the right context, defining clear boundaries, and validating their output rather than treating generated results as inherently correct.
-
-I care about building product surfaces and engineering workflows that are easier to understand, easier to validate, and more reliable for the people who depend on them.
-
-## Currently Learning
-
-I’m continuing to deepen my experience with RAG architectures, retrieval quality, context engineering, AI agents, orchestration, and reliable ways to integrate LLMs into real software-development workflows.
+I’m continuing to deepen my work in RAG architecture and evaluation, system design, AI agents, Rust and Go systems engineering, open-source contribution, and reliable AI-assisted development.
 
 ## Connect
 
-- [LinkedIn](https://www.linkedin.com/in/mateo-osorio-5a93452ab)
+If you want to talk about platform reliability, developer tools, or grounded AI systems, connect with me on **[LinkedIn](https://www.linkedin.com/in/mateo-osorio-5a93452ab)** or explore **[my public repositories](https://github.com/mateoosoriodelhonte?tab=repositories)**.
