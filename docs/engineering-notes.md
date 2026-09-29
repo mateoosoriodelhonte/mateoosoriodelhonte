@@ -50,3 +50,7 @@ Log the operation, a correlation identifier, the failing boundary, and a safe su
 
 When showing cached data, expose when it was collected and whether a refresh failed. A stale value can still be useful if labeled. Test cache expiration and the case where no prior value exists; these paths often need different UI behavior.
 
+## 13. Build minimal fixtures
+
+Use the smallest input that demonstrates a behavior. A compact fixture makes expected output obvious and reviews faster. Keep large real-world samples only when they cover a boundary that smaller synthetic data cannot reproduce.
+
