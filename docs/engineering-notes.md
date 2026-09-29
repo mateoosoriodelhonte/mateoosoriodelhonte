@@ -90,3 +90,7 @@ Describe the observed behavior, the expected behavior, a reproduction path, and 
 
 State the scope of a change before editing. Keep unrelated formatting or refactoring out of a fix unless it is required for correctness. A focused diff makes tests, rollback, and review more reliable.
 
+## 23. Verify documentation against code
+
+Run documented commands and compare examples with current outputs. Check paths and links after moving files. Documentation tests can be lightweight, but a manual smoke test is better than leaving a plausible command unverified.
+
