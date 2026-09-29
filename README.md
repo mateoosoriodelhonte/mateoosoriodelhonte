@@ -95,6 +95,8 @@ Public contribution data is kept here as supporting context; the projects above 
 
 ## How I work
 
+[Engineering notes](docs/engineering-notes.md) — short checks for evidence, reliability, testing, and review.
+
 **evidence → root cause → bounded change → implementation → tests → review → verification**
 
 I prefer reviewable changes with clear ownership and observable proof. I use AI to accelerate investigation and implementation, not to replace technical judgment, testing, or human review.
