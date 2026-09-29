@@ -38,3 +38,7 @@ Store relevance judgments against stable source spans or document identifiers. I
 
 Define separate UI states for no matching data, data not loaded, permission denied, and request failure. Give each state a useful next step. Collapsing them into an empty list hides operational problems and can mislead the person using the product.
 
+## 10. Put bounds on external calls
+
+Set timeouts, response limits, pagination limits, and retry budgets for network requests. Retries need a stop condition and should respect rate limits. A test with a slow or malformed response can verify that the system fails predictably instead of hanging.
+
