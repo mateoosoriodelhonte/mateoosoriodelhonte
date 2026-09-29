@@ -70,3 +70,7 @@ A regression test should capture the input that triggered the bug and the observ
 
 Document what happens when each optional setting is omitted. Test the default path explicitly because it is what most users run. If a setting changes privacy, network access, or resource use, make that effect clear at the point of configuration.
 
+## 18. Design safe local defaults
+
+Bind development services to loopback when remote access is not required. Limit file paths and output sizes, and keep destructive commands explicit. Verify the default setup before documenting optional ways to widen access.
+
