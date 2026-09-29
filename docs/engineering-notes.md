@@ -58,3 +58,7 @@ Use the smallest input that demonstrates a behavior. A compact fixture makes exp
 
 For size, count, and time limits, test just below, at, and just above the limit. Include invalid units and zero where allowed. Boundary tests catch off-by-one errors without duplicating every branch of the implementation.
 
+## 15. Test the failure path
+
+For every happy-path integration test, identify one failure that would matter to a user: rejected credentials, partial API data, corrupt file, or unavailable dependency. Assert both the error state and the absence of misleading success output.
+
