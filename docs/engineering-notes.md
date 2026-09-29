@@ -66,3 +66,7 @@ For every happy-path integration test, identify one failure that would matter to
 
 A regression test should capture the input that triggered the bug and the observable result that was wrong. Name the failure mode in the test. Avoid asserting internal steps unless those steps are part of the product contract.
 
+## 17. Review configuration defaults
+
+Document what happens when each optional setting is omitted. Test the default path explicitly because it is what most users run. If a setting changes privacy, network access, or resource use, make that effect clear at the point of configuration.
+
