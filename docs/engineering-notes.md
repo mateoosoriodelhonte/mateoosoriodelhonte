@@ -42,3 +42,7 @@ Define separate UI states for no matching data, data not loaded, permission deni
 
 Set timeouts, response limits, pagination limits, and retry budgets for network requests. Retries need a stop condition and should respect rate limits. A test with a slow or malformed response can verify that the system fails predictably instead of hanging.
 
+## 11. Make failures actionable
+
+Log the operation, a correlation identifier, the failing boundary, and a safe summary of the cause. Avoid logging secrets or entire payloads. An error message should help a maintainer reproduce the failure while keeping private data out of diagnostics.
+
