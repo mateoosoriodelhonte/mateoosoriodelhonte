@@ -94,3 +94,6 @@ State the scope of a change before editing. Keep unrelated formatting or refacto
 
 Run documented commands and compare examples with current outputs. Check paths and links after moving files. Documentation tests can be lightweight, but a manual smoke test is better than leaving a plausible command unverified.
 
+## 24. Report verification honestly
+
+Record which checks ran, what passed, and what remains unverified. Include environment limits when they affect the result. A clear verification note helps the next maintainer continue from evidence instead of repeating assumptions.
