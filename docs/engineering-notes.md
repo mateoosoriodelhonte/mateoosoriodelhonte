@@ -74,3 +74,7 @@ Document what happens when each optional setting is omitted. Test the default pa
 
 Bind development services to loopback when remote access is not required. Limit file paths and output sizes, and keep destructive commands explicit. Verify the default setup before documenting optional ways to widen access.
 
+## 19. Document repeatable setup
+
+List prerequisites, exact install commands, one smoke test, and how to reset local state. Keep generated files and secrets out of the repository. A newcomer should be able to tell whether setup succeeded without guessing from a long log.
+
