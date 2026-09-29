@@ -10,3 +10,7 @@ List accepted types, size limits, required fields, and normalization rules befor
 
 Missing evidence is different from a measured zero. Model unknown as a separate state and carry it through storage, scoring, and UI text. In a report, show why evidence is unavailable so readers can distinguish a weak result from a collection failure.
 
+## 3. Keep source provenance
+
+Attach a stable source identifier and location to each extracted fact. If text is transformed or chunked, retain enough offsets to find the original span. Reviewers should be able to move from a claim back to the exact input that supports it.
+
