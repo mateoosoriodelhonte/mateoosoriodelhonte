@@ -82,3 +82,7 @@ List prerequisites, exact install commands, one smoke test, and how to reset loc
 
 For each CLI action, state what it reads, writes, or deletes, and give a dry-run path when practical. Show the expected output of a successful small example. This helps users judge whether a command is safe to run on their own data.
 
+## 21. Make reviews evidence based
+
+Describe the observed behavior, the expected behavior, a reproduction path, and the smallest supporting artifact. Separate confirmed facts from hypotheses. A useful review comment lets the author verify the claim without trusting the reviewer’s intuition.
+
