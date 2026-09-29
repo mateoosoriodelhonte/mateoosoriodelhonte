@@ -46,3 +46,7 @@ Set timeouts, response limits, pagination limits, and retry budgets for network 
 
 Log the operation, a correlation identifier, the failing boundary, and a safe summary of the cause. Avoid logging secrets or entire payloads. An error message should help a maintainer reproduce the failure while keeping private data out of diagnostics.
 
+## 12. Distinguish stale from current
+
+When showing cached data, expose when it was collected and whether a refresh failed. A stale value can still be useful if labeled. Test cache expiration and the case where no prior value exists; these paths often need different UI behavior.
+
