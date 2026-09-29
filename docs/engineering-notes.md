@@ -78,3 +78,7 @@ Bind development services to loopback when remote access is not required. Limit 
 
 List prerequisites, exact install commands, one smoke test, and how to reset local state. Keep generated files and secrets out of the repository. A newcomer should be able to tell whether setup succeeded without guessing from a long log.
 
+## 20. Explain command side effects
+
+For each CLI action, state what it reads, writes, or deletes, and give a dry-run path when practical. Show the expected output of a successful small example. This helps users judge whether a command is safe to run on their own data.
+
