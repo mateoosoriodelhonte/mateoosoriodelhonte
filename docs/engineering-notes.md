@@ -22,3 +22,7 @@ Normalize external API responses into a small internal model before scoring them
 
 For each metric, write down its denominator, treatment of duplicates, and behavior when data is missing. Test these with tiny hand-computed examples. A precise label and worked example are more valuable than an impressive-looking number with ambiguous units.
 
+## 6. Make rankings reproducible
+
+Specify tie breakers, candidate limits, and sorting order for retrieval or scoring. Use fixed fixtures and compare identifiers as well as scores. Deterministic ranking makes regressions easier to isolate and makes review output easier to explain.
+
