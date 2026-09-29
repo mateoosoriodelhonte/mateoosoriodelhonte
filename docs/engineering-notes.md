@@ -34,3 +34,7 @@ Record which stage supplied a candidate: lexical search, vector search, fusion, 
 
 Store relevance judgments against stable source spans or document identifiers. Inspect mismatches between retrieved chunks and labeled evidence before changing an evaluator. A metric is useful only when a reviewer can inspect the examples behind it.
 
+## 9. Treat empty states as outcomes
+
+Define separate UI states for no matching data, data not loaded, permission denied, and request failure. Give each state a useful next step. Collapsing them into an empty list hides operational problems and can mislead the person using the product.
+
