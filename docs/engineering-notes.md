@@ -86,3 +86,7 @@ For each CLI action, state what it reads, writes, or deletes, and give a dry-run
 
 Describe the observed behavior, the expected behavior, a reproduction path, and the smallest supporting artifact. Separate confirmed facts from hypotheses. A useful review comment lets the author verify the claim without trusting the reviewer’s intuition.
 
+## 22. Keep changes bounded
+
+State the scope of a change before editing. Keep unrelated formatting or refactoring out of a fix unless it is required for correctness. A focused diff makes tests, rollback, and review more reliable.
+
