@@ -30,3 +30,7 @@ Specify tie breakers, candidate limits, and sorting order for retrieval or scori
 
 Record which stage supplied a candidate: lexical search, vector search, fusion, or reranking. Expose rank and score from each stage without treating unlike scores as interchangeable. This makes it possible to explain why a result appeared or disappeared.
 
+## 8. Evaluate with traceable relevance
+
+Store relevance judgments against stable source spans or document identifiers. Inspect mismatches between retrieved chunks and labeled evidence before changing an evaluator. A metric is useful only when a reviewer can inspect the examples behind it.
+
