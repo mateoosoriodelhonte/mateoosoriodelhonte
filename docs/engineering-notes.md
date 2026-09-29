@@ -26,3 +26,7 @@ For each metric, write down its denominator, treatment of duplicates, and behavi
 
 Specify tie breakers, candidate limits, and sorting order for retrieval or scoring. Use fixed fixtures and compare identifiers as well as scores. Deterministic ranking makes regressions easier to isolate and makes review output easier to explain.
 
+## 7. Keep retrieval stages visible
+
+Record which stage supplied a candidate: lexical search, vector search, fusion, or reranking. Expose rank and score from each stage without treating unlike scores as interchangeable. This makes it possible to explain why a result appeared or disappeared.
+
