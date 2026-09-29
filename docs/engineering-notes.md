@@ -54,3 +54,7 @@ When showing cached data, expose when it was collected and whether a refresh fai
 
 Use the smallest input that demonstrates a behavior. A compact fixture makes expected output obvious and reviews faster. Keep large real-world samples only when they cover a boundary that smaller synthetic data cannot reproduce.
 
+## 14. Test at the boundary
+
+For size, count, and time limits, test just below, at, and just above the limit. Include invalid units and zero where allowed. Boundary tests catch off-by-one errors without duplicating every branch of the implementation.
+
