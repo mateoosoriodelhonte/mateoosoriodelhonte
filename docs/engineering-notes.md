@@ -62,3 +62,7 @@ For size, count, and time limits, test just below, at, and just above the limit.
 
 For every happy-path integration test, identify one failure that would matter to a user: rejected credentials, partial API data, corrupt file, or unavailable dependency. Assert both the error state and the absence of misleading success output.
 
+## 16. Keep regression tests tied to causes
+
+A regression test should capture the input that triggered the bug and the observable result that was wrong. Name the failure mode in the test. Avoid asserting internal steps unless those steps are part of the product contract.
+
