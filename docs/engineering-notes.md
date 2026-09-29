@@ -18,3 +18,7 @@ Attach a stable source identifier and location to each extracted fact. If text i
 
 Normalize external API responses into a small internal model before scoring them. Save the raw response shape in fixtures, then test normalization and evaluation separately. This makes a provider change distinguishable from a scoring rule change.
 
+## 5. Name assumptions in metrics
+
+For each metric, write down its denominator, treatment of duplicates, and behavior when data is missing. Test these with tiny hand-computed examples. A precise label and worked example are more valuable than an impressive-looking number with ambiguous units.
+
