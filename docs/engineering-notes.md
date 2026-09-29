@@ -14,3 +14,7 @@ Missing evidence is different from a measured zero. Model unknown as a separate 
 
 Attach a stable source identifier and location to each extracted fact. If text is transformed or chunked, retain enough offsets to find the original span. Reviewers should be able to move from a claim back to the exact input that supports it.
 
+## 4. Separate collection from judgment
+
+Normalize external API responses into a small internal model before scoring them. Save the raw response shape in fixtures, then test normalization and evaluation separately. This makes a provider change distinguishable from a scoring rule change.
+
