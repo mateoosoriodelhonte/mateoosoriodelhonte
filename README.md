@@ -18,7 +18,7 @@ I build and validate client-facing software across frontend, backend, APIs, data
 
 ## Experience
 
-### SolutionStream / New Reward
+
 
 **Software Engineering · Platform Engineering**
 
